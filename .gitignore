@@ -60,10 +60,3 @@ Thumbs.db
 coverage/
 .nyc_output/
 
-# ========================
-# Optional: Ignore large images (if you don’t want them in Git)
-# (Remove these lines if you WANT to commit images)
-public/profile.png
-public/*.png
-public/*.jpg
-public/*.jpeg
