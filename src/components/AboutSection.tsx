@@ -79,9 +79,10 @@ export const AboutSection = () => {
                 viewport={{ once: true }}
                 className="text-lg text-muted-foreground leading-relaxed"
               >
-                I'm a passionate full-stack developer who builds modern, fast, and user-friendly web applications. 
-                With over 3 years hands-on experience, I use technologies like React, Next.js, Node.js, and cloud platforms
-                to create scalable and reliable solutions.
+                I am an entry-level Software Engineer passionate about building scalable full-stack applications, 
+                backend APIs, cloud-native systems, and AI-powered solutions. I have hands-on experience with React.js, 
+                Next.js, Node.js, Express.js, Java, Python, PostgreSQL, MongoDB, Docker, and Microsoft Azure through internships 
+                and real-world projects.
               </motion.p>
 
               <motion.p
@@ -91,9 +92,10 @@ export const AboutSection = () => {
                 viewport={{ once: true }}
                 className="text-lg text-muted-foreground leading-relaxed"
               >
-                My goal is to build products that not only look great but also deliver real value to users. 
-                I focus on clean, maintainable code, good design practices, and continuous learning to stay 
-                up to date with the latest technologies in web development.
+                I enjoy solving complex problems, writing clean and maintainable code, 
+                and continuously learning modern software engineering practices. 
+                My goal is to contribute to impactful products while growing as a backend 
+                and full-stack developer.
               </motion.p>
 
               {/* Quick stats */}
@@ -106,9 +108,9 @@ export const AboutSection = () => {
               >
                 {[
                   { icon: '💻', label: 'Frontend Dev', desc: 'React, TypeScript, Next.js' },
-                  { icon: '⚙️', label: 'Backend Dev', desc: 'Node.js, Python, APIs' },
+                  { icon: '⚙️', label: 'Backend Dev', desc: 'Node.js, Java, Python, APIs' },
                   { icon: '🎨', label: 'UI/UX Design', desc: 'Figma, Tailwind, Motion' },
-                  { icon: '☁️', label: 'Cloud & DevOps', desc: 'Azure, Docker, CI/CD' },
+                  { icon: '☁️', label: 'Cloud & DevOps', desc: 'AWS, Azure, Docker, CI/CD' },
                 ].map((item) => (
                   <div
                     key={item.label}

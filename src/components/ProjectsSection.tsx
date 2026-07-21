@@ -22,47 +22,174 @@ interface Project {
 const projects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    summary: 'A modern, full-featured e-commerce solution with AI-powered recommendations.',
-    description: 'Built a scalable e-commerce platform handling thousands of daily transactions with real-time inventory management and AI-powered product recommendations.',
+    title: 'CityCare – Enterprise Healthcare Management System',
+    summary:
+      'Enterprise healthcare platform with patient management, appointments, billing, authentication, and role-based access control.',
+    description:
+      'Designed and developed a scalable healthcare management platform that enables hospitals and clinics to manage patient records, appointments, doctors, billing, prescriptions, and administrative operations through secure role-based dashboards.',
     role: 'Full Stack Developer',
-    techStack: ['React', 'Node.js', 'PostgreSQL', 'MongoDB', 'AWS'],
-    problem: 'The client needed a scalable solution to replace their legacy system that couldn\'t handle peak traffic.',
-    solution: 'Implemented a microservices architecture with caching layers and CDN optimization.',
-    results: '300% increase in page load speed, 50% reduction in cart abandonment.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80',
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
-    category: 'Web App',
+    techStack: [
+      'Next.js',
+      'Node.js',
+      'Express.js',
+      'PostgreSQL',
+      'Prisma ORM',
+      'JWT',
+      'Tailwind CSS'
+    ],
+    problem:
+      'Healthcare organizations often rely on disconnected systems for appointments, billing, and patient records, making operations inefficient.',
+    solution:
+      'Built an integrated healthcare platform with secure authentication, RBAC, REST APIs, appointment scheduling, billing modules, and responsive dashboards.',
+    results:
+      'Developed 50+ REST APIs, implemented JWT authentication, RBAC, Prisma ORM, PostgreSQL integration, and responsive dashboards for administrators, doctors, and patients.',
+    image: '/public/CityCare.png',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'Enterprise Application',
   },
+
   {
     id: '2',
-    title: 'Finance and Expense Management System',
-    summary: 'Real-time analytics dashboard with ML-powered insights and predictions.',
-    description: 'Developed an analytics platform that processes millions of data points to provide actionable expense insights using machine learning models.',
-    role: 'Frontend Lead & ML Integration',
-    techStack: ['Next.js', 'Python', 'TensorFlow', 'D3.js', 'MongoDB'],
-    problem: 'Business stakeholders needed real-time insights but data was scattered across multiple systems.',
-    solution: 'Created a unified dashboard with ML models for predictive analytics and anomaly detection.',
-    results: '40% faster decision-making, identified results in cost savings.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-    liveUrl: 'https://example.com',
-    category: 'Dashboard',
+    title: 'MERN E-Commerce Platform',
+    summary:
+      'Full-stack e-commerce platform with authentication, payments, shopping cart, and order management.',
+    description:
+      'Developed a production-ready e-commerce application supporting product management, shopping cart, Stripe payments, authentication, RBAC, and order tracking.',
+    role: 'Full Stack Developer',
+    techStack: [
+      'Next.js',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Stripe',
+      'Tailwind CSS',
+      'JWT'
+    ],
+    problem:
+      'Businesses require scalable online stores with secure authentication, payment processing, and efficient product management.',
+    solution:
+      'Built a complete e-commerce system with JWT authentication, Stripe integration, shopping cart, admin dashboard, and responsive UI.',
+    results:
+      'Implemented secure payment workflows, authentication, role-based access control, and complete order lifecycle management.',
+    image: '/public/e-commerce.jpg',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'Web Application',
   },
+
   {
     id: '3',
-    title: 'All-in-One Travel & Ticket Booking Platform',
-    summary: 'Unified travel and hotel booking system with real-time search, pricing, and seat selection.',
-    description: 'Developed a comprehensive travel booking platform that allows users to search, compare, and book flights, trains, buses, metro, and hotels in a single application with seamless payment and user experience.',
-    role: 'Full Stack Developer',
-    techStack: ['React', 'Node.js', 'PostgreSQL', 'Redis', 'GraphQL', 'Stripe'],
-    problem: 'Users had to rely on multiple apps for different travel modes and hotel bookings, leading to fragmented experience and inefficiencies.',
-    solution: 'Built an integrated multi-modal travel booking system with real-time availability, dynamic pricing, secure payments, and centralized booking management.',
-    results: '50% reduction in booking time, 80% increase in user engagement, 1000 active users in first month.',
-    image: 'https://images.unsplash.com/photo-1542650742-d3150fb66298?w=800&q=80',
-    githubUrl: 'https://github.com',
-    category: 'Mobile & Web Application',
+    title: 'AI Research Intelligence System',
+    summary:
+      'AI-powered platform for searching, summarizing, and comparing research papers using LLMs.',
+    description:
+      'Developed an AI research assistant that automates paper retrieval, PDF processing, summarization, comparison, and semantic search using LangChain and LangGraph.',
+    role: 'AI Full Stack Developer',
+    techStack: [
+      'Python',
+      'LangChain',
+      'LangGraph',
+      'Gemini',
+      'OpenAI',
+      'Gradio',
+      'PyMuPDF'
+    ],
+    problem:
+      'Researchers spend significant time searching, reading, and comparing academic papers manually.',
+    solution:
+      'Integrated Semantic Scholar API, PDF parsing, prompt engineering, and LLM workflows to automate literature review.',
+    results:
+      'Enabled automated paper retrieval, AI-powered summarization, comparison, and interactive research exploration.',
+    image: '/public/ai-research.jpg',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'AI Application',
   },
+
+  {
+    id: '4',
+    title: 'Real-Time Logistics Intelligence Platform',
+    summary:
+      'Enterprise fleet management platform with real-time vehicle tracking, analytics, Kafka event streaming, and AI insights.',
+    description:
+      'Built an enterprise logistics platform supporting fleet monitoring, trip tracking, real-time GPS updates, analytics dashboards, and microservice architecture.',
+    role: 'Software Engineer',
+    techStack: [
+      'Next.js',
+      'NestJS',
+      'Kafka',
+      'PostgreSQL',
+      'Redis',
+      'Docker',
+      'Prisma'
+    ],
+    problem:
+      'Fleet operators need centralized real-time visibility, analytics, and operational intelligence.',
+    solution:
+      'Implemented event-driven microservices using Kafka, WebSockets, PostgreSQL, Redis caching, and enterprise dashboards.',
+    results:
+      'Developed scalable backend services with real-time vehicle tracking, fleet analytics, trip history, and AI-ready architecture.',
+    image: '/public/logistics.jpg',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'Enterprise Application',
+  },
+
+  {
+    id: '5',
+    title: 'AI CRM for Healthcare Professionals',
+    summary:
+      'Enterprise CRM platform with AI-powered interactions, patient engagement, workflow automation, and analytics.',
+    description:
+      'Developed an AI-first CRM system enabling healthcare representatives to manage HCP interactions, engagement history, and AI-assisted insights.',
+    role: 'Full Stack Developer',
+    techStack: [
+      'React',
+      'Node.js',
+      'PostgreSQL',
+      'LangGraph',
+      'OpenAI',
+      'Docker'
+    ],
+    problem:
+      'Healthcare sales teams need centralized HCP management with intelligent insights and interaction tracking.',
+    solution:
+      'Built dashboards, AI workflows, history tracking, analytics, and enterprise CRM features.',
+    results:
+      'Delivered AI-assisted CRM workflows, interaction management, analytics dashboards, and enterprise UI.',
+    image: '/public/ai-crm.png',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'Enterprise Application',
+  },
+
+  {
+    id: '6',
+    title: 'CNN-Based Malaria Parasite Detection',
+    summary:
+      'Deep learning application for malaria parasite detection using transfer learning.',
+    description:
+      'Built a medical image classification system using TensorFlow and VGG16 to detect malaria parasites from microscopic cell images.',
+    role: 'Machine Learning Developer',
+    techStack: [
+      'Python',
+      'TensorFlow',
+      'VGG16',
+      'Flask',
+      'OpenCV'
+    ],
+    problem:
+      'Manual malaria diagnosis is time-consuming and requires expert analysis.',
+    solution:
+      'Applied transfer learning with VGG16 and deployed prediction services using Flask.',
+    results:
+      'Achieved 96.2% test accuracy using transfer learning and data augmentation.',
+    image: '/public/malaria.jpg',
+    githubUrl: 'https://github.com/DeviPradeepVasala',
+    liveUrl: '',
+    category: 'AI / Machine Learning',
+  }
 ];
 
 const categories = ['All', 'Web App', 'Dashboard', 'Mobile'];
