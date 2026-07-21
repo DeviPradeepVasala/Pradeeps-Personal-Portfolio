@@ -109,7 +109,7 @@ export const AboutSection = () => {
                 {[
                   { icon: '💻', label: 'Frontend Dev', desc: 'React, TypeScript, Next.js' },
                   { icon: '⚙️', label: 'Backend Dev', desc: 'Node.js, Java, Python, APIs' },
-                  { icon: '🎨', label: 'Databases', desc: 'MySQL, PostgreSQL, SQL Server' },
+                  { icon: '🗄️', label: 'Databases', desc: 'MySQL, PostgreSQL, SQL Server' },
                   { icon: '☁️', label: 'Cloud & DevOps', desc: 'AWS, Azure, Docker, CI/CD' },
                 ].map((item) => (
                   <div
