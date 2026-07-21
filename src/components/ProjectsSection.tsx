@@ -43,7 +43,7 @@ const projects: Project[] = [
       'Built an integrated healthcare platform with secure authentication, RBAC, REST APIs, appointment scheduling, billing modules, and responsive dashboards.',
     results:
       'Developed 50+ REST APIs, implemented JWT authentication, RBAC, Prisma ORM, PostgreSQL integration, and responsive dashboards for administrators, doctors, and patients.',
-    image: '/public/CityCare.png',
+    image: '/CityCare.png',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'Enterprise Application',
@@ -72,7 +72,7 @@ const projects: Project[] = [
       'Built a complete e-commerce system with JWT authentication, Stripe integration, shopping cart, admin dashboard, and responsive UI.',
     results:
       'Implemented secure payment workflows, authentication, role-based access control, and complete order lifecycle management.',
-    image: '/public/e-commerce.jpg',
+    image: '/e-commerce.jpg',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'Web Application',
@@ -101,7 +101,7 @@ const projects: Project[] = [
       'Integrated Semantic Scholar API, PDF parsing, prompt engineering, and LLM workflows to automate literature review.',
     results:
       'Enabled automated paper retrieval, AI-powered summarization, comparison, and interactive research exploration.',
-    image: '/public/ai-research.jpg',
+    image: '/ai-research.jpg',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'AI Application',
@@ -130,7 +130,7 @@ const projects: Project[] = [
       'Implemented event-driven microservices using Kafka, WebSockets, PostgreSQL, Redis caching, and enterprise dashboards.',
     results:
       'Developed scalable backend services with real-time vehicle tracking, fleet analytics, trip history, and AI-ready architecture.',
-    image: '/public/logistics.jpg',
+    image: '/logistics.jpg',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'Enterprise Application',
@@ -158,7 +158,7 @@ const projects: Project[] = [
       'Built dashboards, AI workflows, history tracking, analytics, and enterprise CRM features.',
     results:
       'Delivered AI-assisted CRM workflows, interaction management, analytics dashboards, and enterprise UI.',
-    image: '/public/ai-crm.png',
+    image: '/ai-crm.png',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'Enterprise Application',
@@ -185,7 +185,7 @@ const projects: Project[] = [
       'Applied transfer learning with VGG16 and deployed prediction services using Flask.',
     results:
       'Achieved 96.2% test accuracy using transfer learning and data augmentation.',
-    image: '/public/malaria.jpg',
+    image: '/malaria.jpg',
     githubUrl: 'https://github.com/DeviPradeepVasala',
     liveUrl: '',
     category: 'AI / Machine Learning',
